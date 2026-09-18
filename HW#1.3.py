@@ -21,7 +21,7 @@ import math
 import numpy as np
 
 
-data = np.loadtxt('powerspectrum.dat')
+data = np.loadtxt('lcdm_z0.matter_pk')
 k  = data[:,0]
 Pk = data[:,1]
 
